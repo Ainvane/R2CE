@@ -5,7 +5,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <img src="assets/images/job-search.png" width="45" height="45" alt="">
+                    <img src="{{ asset('assets/images/job-search.png')}}" width="45" height="45" alt="">
                     <a href="http://project.home.lan/"><h3 style="color:white">R2<em style="color:red">CE</em></h3></a>
                 </div>
 

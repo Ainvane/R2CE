@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="assets/images/favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    
-        <title>เว็บแอปพลิเคชันช่วยสรรหางาน</title>
-    
-        <!-- Bootstrap core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
-        <!-- Additional CSS Files -->
-        <link rel="stylesheet" href="assets/css/fontawesome.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/owl.css">
-        <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/faqs/faq-3/assets/css/faq-3.css">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    
-        <!-- Additional JS -->
-        <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
-        <script>
-            // Enable pusher logging - don't include this in production
-            Pusher.logToConsole = true;
-        
-            var pusher = new Pusher('876d2da4d27268adb0a2', {
-              cluster: 'ap1'
-            });
-        
-            var channel = pusher.subscribe('my-channel');
-            channel.bind('my-event', function(data) {
-              alert(JSON.stringify(data));
-            });
-          </script>
-    
-    </head>   
-    
     <div>
         {{-- <x-slot name="header">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
@@ -167,5 +124,4 @@
         </div>
     </div>
     </div>
-    
-</html>
+
